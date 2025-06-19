@@ -2,6 +2,8 @@ import { BooksAPI } from './modules/api.js';
 import { Cart } from './modules/cart.js';
 import { BooksRenderer } from './modules/booksRenderer.js';
 import { Slider } from './modules/slider.js';
+import '/src/styles/main.scss';
+
 
 export class App {
 	constructor() {

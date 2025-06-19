@@ -193,7 +193,6 @@ body {
     color: $text-light;
     margin: 0 0 15px 0;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
@@ -214,9 +213,9 @@ body {
   @extend .buy-btn;
   margin-top: 20px;
 
-  &:hover {
-    background: darken($primary-color, 10%);
-  }
+  //&:hover {
+   // background: darken($primary-color, 10%);
+  //}
 }
 
 .books-content {

@@ -2,6 +2,7 @@ import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 import { fileURLToPath } from 'url';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -49,6 +50,11 @@ export default {
 		new HtmlWebpackPlugin({
 			template: './src/index.html',
 			filename: 'index.html',
+		}),
+		new CopyWebpackPlugin({
+			patterns: [
+				{ from: 'src/assets', to: 'assets' },
+			],
 		}),
 	],
 	devServer: {
