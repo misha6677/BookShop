@@ -1,0 +1,51 @@
+// Colors
+$primary-color: #4285f4;       // Google blue
+$secondary-color: #34a853;     // Google green
+$accent-color: #ea4335;        // Google red
+$yellow-color: #fbbc05;        // Google yellow
+$text-color: #333;             // Main text color
+$light-gray: #f5f5f5;          // Backgrounds
+$medium-gray: #e0e0e0;         // Borders
+$dark-gray: #757575;           // Secondary text
+$white: #ffffff;               // White
+$black: #000000;               // Black
+
+// Shadows
+$box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+$box-shadow-hover: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+// Spacing
+$spacing-xs: 5px;
+$spacing-sm: 10px;
+$spacing-md: 15px;
+$spacing-lg: 20px;
+$spacing-xl: 30px;
+$spacing-xxl: 40px;
+
+// Breakpoints
+$breakpoint-xs: 480px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;
+
+// Fonts
+$font-main: 'Roboto', sans-serif;
+$font-secondary: 'Georgia', serif;
+$font-size-base: 16px;
+
+// Transitions
+$transition-fast: 0.2s ease;
+$transition-medium: 0.3s ease;
+$transition-slow: 0.5s ease;
+
+// Border radius
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-circle: 50%;
+
+// Z-indexes
+$z-index-dropdown: 100;
+$z-index-sticky: 200;
+$z-index-modal: 300;
+$z-index-tooltip: 400;
